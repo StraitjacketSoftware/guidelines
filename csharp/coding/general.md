@@ -19,6 +19,7 @@ permalink: /csharp/coding/general
 Ternary expressions are encouraged where appropriate, but should *never* be nested.
 
 ### ❌ Avoid
+{: .no_toc }
 ```cs
 string result;
 if (condition)
@@ -32,16 +33,19 @@ else
 ```
 
 ### ✔️ Prefer
+{: .no_toc }
 ```cs
 string result = condition ? "A" : "B";
 ```
 
 ### ❌ Avoid
+{: .no_toc }
 ```cs
 string result = condition ? (nestedCondition ? "A" : "B") : "C";
 ```
 
 ### ✔️ Prefer
+{: .no_toc }
 ```cs
 string result;
 if (condition)
@@ -59,6 +63,7 @@ Avoid using equality operators (`==`/`!=`) or `HasValue` (in the case of nullabl
 introducted in C# 7 for pattern matching expressions.
 
 ### ❌ Avoid
+{: .no_toc }
 ```cs
 int? number = 42;
 
@@ -74,6 +79,7 @@ if (number.HasValue)
 ```
 
 ### ✔️ Prefer
+{: .no_toc }
 ```cs
 int? number = 42;
 
@@ -91,3 +97,4 @@ if (value is not null)
     // ...
 }
 ```
+
