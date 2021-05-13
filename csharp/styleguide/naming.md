@@ -15,7 +15,7 @@ There are two appropriate ways to capitalise identifiers, depending on the usage
 - For parameters, local variables and private fields, use `camelCase`
 - For all other uses, use `PascalCase`
 
-Identifiers should never feature hyphens (-) or underscores (\_). Acronyms should be treated as a word, with only the first letter capitalized.
+Identifiers should never feature hyphens (-) or underscores (\_). All acronyms should be treated as a word, with only the first letter capitalized.
 
 Interfaces and generic type parameters additionally should be prefixed with an `I` or a `T` as per the C# norm.
 
