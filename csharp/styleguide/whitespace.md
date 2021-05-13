@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Whitespace Rules
+title: Whitespace
 nav_order: 2
-parent: C# Style Guide
-permalink: /csharp/styleguide/whitespace-rules
+parent: C# Formatting Guidelines
+permalink: /csharp/formatting/whitespace
 ---
 
-# Whitespace Rules
+# Whitespace
 
 ## Indentation
 Indentation should be in blocks of **4 spaces**. *We **never** use tabs.*
