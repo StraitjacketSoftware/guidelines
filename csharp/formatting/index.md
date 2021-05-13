@@ -1,12 +1,12 @@
 ---
 layout: default
-title: C# Style Guide
+title: C# Formatting Guidelines
 nav_order: 2
 has_children: true
-permalink: /csharp/styleguide/
+permalink: /csharp/formatting/
 ---
 
-# C# Style Guide
+# C# Formatting Guidelines
 
 This style guide is intended both for code developed internally at Straitjacket Software and for contributors to our open source codebases. It makes stylistic choices
 based on Microsoft's .NET [Framework Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/).
