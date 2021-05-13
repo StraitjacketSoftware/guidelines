@@ -28,6 +28,8 @@ There should be one space after `if`/`for`/`while` etc. keywords, and after comm
 There should be one space between an operator and each of its operands, with the exception of unary operators such as `!`.
 
 ## Vertical Whitespace
+There should be only one field or variable declaration per line.
+
 There should be exactly one blank line between methods and property declarations. Property declarations with a backing field do not require a space between the
 backing field and the property, but the backing field must be declared on the line immediately preceding the property.
 
