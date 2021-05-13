@@ -18,7 +18,8 @@ aligned with the first argument. If there is not enough room for this, use a 4 s
 A line should never exceed **150 characters** in length.
 
 ## Braces
-Braces should always be separated out onto their own line as per the C# convention.
+Braces should always be separated out onto their own line as per the C# convention. The _only_ exception is when initializing an object or collection via [initializer syntax](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers), and only in the case of assigning a single property
+or a very simple, short list.
 
 **There are no such thing as optional braces.** Conditional statements are *always* required to be enclosed in braces.
 
