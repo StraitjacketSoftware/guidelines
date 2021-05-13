@@ -13,4 +13,4 @@ This style guide is intended both for code developed internally at Straitjacket 
 
 It makes stylistic choices based on Microsoft's .NET [Framework Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/), with the objective
 of writing maintainable, readable and scalable code, while taking advantage of modern C# language features and best practices.
-{: .fs-4 .fw-300 }
+{: .fs-5 .fw-300 }
