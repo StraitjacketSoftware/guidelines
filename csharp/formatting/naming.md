@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Naming Rules
+title: Naming
 nav_order: 1
-parent: C# Style Guide
-permalink: /csharp/styleguide/naming-rules
+parent: C# Formatting Guidelines
+permalink: /csharp/formatting/naming
 ---
 
-# Naming Rules
+# Naming
 In general, we follow [Microsoft's C# naming guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines), though there are a few differences.
 {: .fs-6 .fw-300 }
 
