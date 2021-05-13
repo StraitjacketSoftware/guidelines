@@ -6,7 +6,7 @@ parent: C# Style Guide
 permalink: /csharp/styleguide/naming-guidelines
 ---
 
-# Naming Guidelines
+# Naming Rules
 In general, we follow [Microsoft's C# naming guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines), though there are a few differences.
 {: .fs-6 .fw-300 }
 
