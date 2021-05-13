@@ -16,7 +16,7 @@ permalink: /csharp/coding/general
 {:toc}
 
 ## Ternary Expressions
-Ternary expressions are encouraged where appropriate, but should *never* be nested.
+[Ternary expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator) are encouraged where appropriate, but should *never* be nested.
 
 ### ❌ Avoid
 {: .no_toc .text-delta }
@@ -59,7 +59,7 @@ else
 ```
 
 ## Null Checking
-Avoid using equality operators (`==`/`!=`) or `HasValue` (in the case of nullable value types) for null checks. Instead, make use of the `is` operator,
+Avoid using equality operators (`==`/`!=`) or `HasValue` (in the case of nullable value types) for null checks. Instead, make use of the [`is` operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/is),
 introducted in C# 7 for pattern matching expressions.
 
 ### ❌ Avoid
@@ -177,4 +177,45 @@ string result = someEnum switch
     MyEnum.Message  => "Message selected.",
     _               => throw new InvalidOperationException() // _ is analagous to the default case in a switch statement
 }
+```
+
+## String Concatenation
+[String interpolation](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated) should always be preferred over using the `+` operator or the `string.Format()` method wherever possible.
+
+### ❌ Avoid
+{: .no_toc .text-delta }
+```cs
+string name = firstName + " " + lastName;
+```
+```cs
+string name = string.Format("{0} {1}", firstName, lastName);
+```
+
+### ✔️ Prefer
+{: .no_toc .text-delta }
+```cs
+string name = $"{firstName} {lastName}";
+```
+
+## Variable Declaration
+Avoid use of the `var` keyword, except where the type being assigned is obvious without any additional context.
+
+### ❌ Avoid
+{: .no_toc .text-delta }
+```cs
+var users = Database.GetUsers();
+```
+
+### ✔️ Prefer
+{: .no_toc .text-delta }
+```cs
+List<User> users = Database.GetUsers();
+```
+```cs
+var users = new List<User>();
+```
+
+Starting with C# 9, it is also possible to use the following syntax when constructing a new object, which is preferred where applicable:
+```cs
+List<User> users = new();
 ```
