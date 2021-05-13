@@ -3,7 +3,7 @@ layout: default
 title: Naming Rules
 nav_order: 1
 parent: C# Style Guide
-permalink: /csharp/styleguide/naming-guidelines
+permalink: /csharp/styleguide/naming-rules
 ---
 
 # Naming Rules
