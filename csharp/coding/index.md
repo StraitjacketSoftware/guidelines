@@ -10,5 +10,5 @@ permalink: /csharp/coding/
 
 This style guide is intended both for code developed internally at Straitjacket Software and for contributors to our open source codebases. It makes stylistic choices
 based on Microsoft's .NET [Framework Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/), with the objective of writing maintainable,
-readable and scalable code while following modern best practices.
+readable and scalable code, while taking advantage of modern C# language features and best practices.
 {: .fs-6 .fw-300 }
