@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Naming
+title: General Guidelines
 nav_order: 1
 parent: C# Coding Guidelines
 permalink: /csharp/coding/general
