@@ -21,7 +21,7 @@ Does the data type you're designing respect all of [these rules](https://docs.mi
 
 If the answer to all of the above questions is **yes**, then your data type should be a `struct` (value type).
 
-If you answered no to any of the above questions, then does your data type respect these rules:
+If you answered no to any of the above questions, then does your data type respect all of these rules:
 - It is being defined with C# 9 or later
 - It describes a value-like, preferably immutable state
 - It will commonly be used in a unidirectional flow
