@@ -3,7 +3,7 @@ layout: default
 title: C# Style Guide
 nav_order: 2
 has_children: true
-permalink: /csharp/styleguide
+permalink: /csharp/styleguide/
 ---
 
 # C# Style Guide
