@@ -9,11 +9,14 @@ permalink: /csharp/coding/general
 # General Guidelines
 {: .no_toc }
 
-## Table of Contents
-{: .no_toc .text-delta }
-
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
+</details>
 
 ## Ternary Expressions
 [Ternary expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator) are encouraged where appropriate, but should *never* be nested.
