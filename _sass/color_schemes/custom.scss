@@ -15,3 +15,7 @@ $feedback-color: darken($sidebar-color, 3%);
 $content-width: 960px;
 $nav-width: 316px;
 $nav-width-md: 300px;
+
+pre {
+  line-height: 1.2;
+}
