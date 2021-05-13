@@ -7,10 +7,13 @@ permalink: /csharp/coding/general
 ---
 
 # General Guidelines
+{: .no_toc }
 
 ## Table of Contents
+{: .no_toc .text-delta }
+
 1. TOC
-{ :toc }
+{:toc}
 
 ## Ternary Expressions
 Ternary expressions are encouraged where appropriate, but should *never* be nested.
