@@ -12,7 +12,7 @@ permalink: /csharp/formatting/whitespace
 Indentation should be in blocks of **4 spaces**. *We **never** use tabs.*
 
 In the case of method definitions and calls where arguments do not all fit on line, they should be broken up onto multiple lines, with each subsequent line
-aligned with the first argument. If there is not enough room for this, use a 4 space indent instead.
+aligned with the first argument. If there is not enough room for this, use a 4-space indent instead.
 
 ## Character Limit per Line
 A line should never exceed **150 characters** in length.
