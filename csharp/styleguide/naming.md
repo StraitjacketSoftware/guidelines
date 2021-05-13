@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Naming Guidelines
-nav_order: 2
+nav_order: 1
 parent: C# Style Guide
 permalink: /csharp/styleguide/naming-guidelines
 ---
