@@ -37,5 +37,5 @@ There should be only one field or variable declaration per line.
 There should be exactly one blank line between methods and property declarations. Property declarations with a backing field do not require a space between the
 backing field and the property, but the backing field must be declared on the line immediately preceding the property.
 
-Whitespace within code blocks should separate logical functionality, but if you find there are many sections in a method, you should likely consider refactoring
+Whitespace within code blocks should separate logical functionality, but if you find there are many sections in a method, you should consider refactoring
 to split the method into smaller pieces.
