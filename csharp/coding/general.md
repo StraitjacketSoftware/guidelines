@@ -8,6 +8,10 @@ permalink: /csharp/coding/general
 
 # General Guidelines
 
+## Table of Contents
+1. TOC
+{ :toc }
+
 ## Ternary Expressions
 Ternary expressions are encouraged where appropriate, but should *never* be nested.
 
