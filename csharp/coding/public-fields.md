@@ -17,7 +17,7 @@ As such, only members that _need_ to be `public` should be `public`.
 
 The only fields that should be `public` are constant or static read-only fields used for defining default object states (e.g. `Vector3.zero`), 
 
-If you want to expose data to consumers of the type, you should define a `property` with a `get` accessor that forwards to the field (or an auto-implemented property).
+For the purpose of exposing data to consumers of the type, you should define a `property` with a `get` accessor that forwards to the field (or an auto-implemented property).
 Don't expose the `field` directly.
 
 ## Unity
