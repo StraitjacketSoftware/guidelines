@@ -69,7 +69,6 @@ introducted in C# 7 for pattern matching expressions.
 {: .no_toc .text-delta }
 ```cs
 int? number = 42;
-
 if (number != null)
 {
     // ...
@@ -85,7 +84,6 @@ if (number.HasValue)
 {: .no_toc .text-delta }
 ```cs
 int? number = 42;
-
 if (number is int n)
 {
     // n has now been cast from an int? to an int with the value of 42
@@ -221,4 +219,39 @@ var users = new List<User>();
 Starting with C# 9, it is also possible to use the following syntax when constructing a new object, which is preferred where applicable:
 ```cs
 List<User> users = new();
+```
+
+## Object Initialization
+When initializing an object, avoid assigning individual properties via multiple statements, instead preferring [object and collection initializer](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) syntax.
+
+### ❌ Avoid
+{: .no_toc .text-delta }
+```cs
+Cat cat = new Cat();
+cat.Age = 10;
+cat.Name = "Fluffy";
+```
+
+### ✔️ Prefer
+{: .no_toc .text-delta }
+```cs
+Cat cat = new Cat
+{
+    Age = 10,
+    Name = "Fluffy"
+}
+```
+
+### ❌ Avoid
+{: .no_toc .text-delta }
+```cs
+List<int> numbers = new List<int>();
+numbers.Add(1);
+numbers.Add(2);
+```
+
+### ✔️ Prefer
+{: .no_toc .text-delta }
+```cs
+List<int> numbers = new List<int> { 1, 2, 3 }
 ```
