@@ -255,3 +255,11 @@ numbers.Add(2);
 ```cs
 List<int> numbers = new List<int> { 1, 2, 3 }
 ```
+```cs
+Dictionary<int, string> numberDictionary = new Dictionary<int, string>
+{
+    [7] = "seven",
+    [9] = "nine",
+    [13] = "thirteen"
+}
+```
