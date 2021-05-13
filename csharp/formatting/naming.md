@@ -23,7 +23,7 @@ Interfaces and generic type parameters additionally should be prefixed with an `
 With the exception of `MonoBehaviour`, use US English spelling.
 
 ## Word Choice
-Refer to Microsoft's C# [general naming conventions](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions), as well as the following documents:
+Refer to Microsoft's C# [general naming conventions](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions), as well as the following articles:
 - [Names of namespaces](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-namespaces)
 - [Names of classes, structs and interfaces](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-classes-structs-and-interfaces)
 - [Names of type members](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/names-of-type-members)
