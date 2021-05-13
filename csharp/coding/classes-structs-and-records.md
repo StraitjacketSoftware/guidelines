@@ -1,6 +1,6 @@
 ---
 layout: default
-title: When to Use Classes, Structs and Records
+title: Classes, Structs and Records
 nav_order: 2
 parent: C# Coding Guidelines
 permalink: /csharp/coding/classes-structs-and-records
