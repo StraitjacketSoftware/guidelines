@@ -11,7 +11,7 @@ In general, we follow [Microsoft's C# naming guidelines](https://docs.microsoft.
 {: .fs-6 .fw-300 }
 
 ## Capitalization
-There are two appropriate ways to capitalise identifiers, depending on the usage:
+There are two appropriate ways to capitalize identifiers, depending on the usage:
 - For parameters, local variables and private fields, use `camelCase`
 - For all other uses, use `PascalCase`
 
