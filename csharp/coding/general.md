@@ -100,7 +100,7 @@ if (value is not null)
 ```
 
 ## Switch Statements and Expressions
-Switch statements should be preferred over `if-else if-else` statements wherever possible.
+Switch statements should be preferred over `if`-`else if`-`else` statements wherever possible.
 
 ### ❌ Avoid
 {: .no_toc .text-delta }
