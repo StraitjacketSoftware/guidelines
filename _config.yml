@@ -1,2 +1,6 @@
 remote_theme: pmarsceill/just-the-docs
 color_scheme: custom
+
+title: Straitjacket Software
+description: The Straitjacket Software Coding Guidelines is a document aiming to give guidance on the coding conventions and style guidelines that should be used when writing and contibuting code for Straitjacket Software applications.
+baseurl: "/guidelines"
