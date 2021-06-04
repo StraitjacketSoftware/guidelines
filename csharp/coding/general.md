@@ -61,6 +61,16 @@ else
 }
 ```
 
+However, starting with C# 8, prefer [switch expressions](#switch-statements-and-expressions):
+```cs
+string result = condition switch
+{
+    true when nestedCondition => "A",
+    true => "B",
+    false => "C"
+};
+```
+
 ## Null Checking
 Avoid using equality operators (`==`/`!=`) or `HasValue` (in the case of nullable value types) for null checks. Instead, make use of the [`is` operator](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/is),
 introducted in C# 7 for pattern matching expressions.
