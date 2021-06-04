@@ -153,7 +153,7 @@ switch (number)
 }
 ```
 
-However, where possible, prefer [switch expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression) over switch statements. Switch expressions are available starting from C# 8, and are useful when assigning to a variable or returning from a method based on [simple pattern mattern expressions](https://docs.microsoft.com/en-us/archive/msdn-magazine/2019/may/csharp-8-0-pattern-matching-in-csharp-8-0):
+However, where possible, prefer [switch expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression) over switch statements. Switch expressions are available starting from C# 8, and are useful when assigning to a variable or returning from a method based on simple [pattern mattern expressions](https://docs.microsoft.com/en-us/archive/msdn-magazine/2019/may/csharp-8-0-pattern-matching-in-csharp-8-0):
 
 ### ❌ Avoid
 {: .no_toc .text-delta }
