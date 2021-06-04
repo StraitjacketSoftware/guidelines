@@ -66,8 +66,8 @@ However, starting with C# 8, prefer [switch expressions](#switch-statements-and-
 string result = condition switch
 {
     true when nestedCondition => "A",
-    true => "B",
-    false => "C"
+    true                      => "B",
+    false                     => "C"
 };
 ```
 
